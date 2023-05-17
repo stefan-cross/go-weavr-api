@@ -11,10 +11,10 @@ package weavr
 
 import (
 	"context"
+	openapiclient "github.com/stefan-cross/go-weavr-api"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_weavr_ConsumersApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_weavr_ConsumersApiService(t *testing.T) {
 
 	t.Run("Test ConsumersApiService ConsumerChargeFee", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.ConsumersApi.ConsumerChargeFee(context.Background()).Execute()
 
@@ -35,7 +35,7 @@ func Test_weavr_ConsumersApiService(t *testing.T) {
 
 	t.Run("Test ConsumersApiService ConsumerCreate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.ConsumersApi.ConsumerCreate(context.Background()).Execute()
 
@@ -46,7 +46,7 @@ func Test_weavr_ConsumersApiService(t *testing.T) {
 
 	t.Run("Test ConsumersApiService ConsumerGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.ConsumersApi.ConsumerGet(context.Background()).Execute()
 
@@ -57,7 +57,7 @@ func Test_weavr_ConsumersApiService(t *testing.T) {
 
 	t.Run("Test ConsumersApiService ConsumerKycGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.ConsumersApi.ConsumerKycGet(context.Background()).Execute()
 
@@ -68,7 +68,7 @@ func Test_weavr_ConsumersApiService(t *testing.T) {
 
 	t.Run("Test ConsumersApiService ConsumerKycStart", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.ConsumersApi.ConsumerKycStart(context.Background()).Execute()
 
@@ -79,7 +79,7 @@ func Test_weavr_ConsumersApiService(t *testing.T) {
 
 	t.Run("Test ConsumersApiService ConsumerKycStartSumsubMobile", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.ConsumersApi.ConsumerKycStartSumsubMobile(context.Background()).Execute()
 
@@ -90,7 +90,7 @@ func Test_weavr_ConsumersApiService(t *testing.T) {
 
 	t.Run("Test ConsumersApiService ConsumerRootUserEmailVerificationCodeSend", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.ConsumersApi.ConsumerRootUserEmailVerificationCodeSend(context.Background()).Execute()
 
@@ -101,7 +101,7 @@ func Test_weavr_ConsumersApiService(t *testing.T) {
 
 	t.Run("Test ConsumersApiService ConsumerRootUserEmailVerify", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.ConsumersApi.ConsumerRootUserEmailVerify(context.Background()).Execute()
 
@@ -112,7 +112,7 @@ func Test_weavr_ConsumersApiService(t *testing.T) {
 
 	t.Run("Test ConsumersApiService ConsumerUpdate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.ConsumersApi.ConsumerUpdate(context.Background()).Execute()
 

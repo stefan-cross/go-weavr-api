@@ -11,10 +11,10 @@ package weavr
 
 import (
 	"context"
+	openapiclient "github.com/stefan-cross/go-weavr-api"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_weavr_CorporatesApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_weavr_CorporatesApiService(t *testing.T) {
 
 	t.Run("Test CorporatesApiService CorporateChargeFee", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.CorporatesApi.CorporateChargeFee(context.Background()).Execute()
 
@@ -35,7 +35,7 @@ func Test_weavr_CorporatesApiService(t *testing.T) {
 
 	t.Run("Test CorporatesApiService CorporateCreate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.CorporatesApi.CorporateCreate(context.Background()).Execute()
 
@@ -46,7 +46,7 @@ func Test_weavr_CorporatesApiService(t *testing.T) {
 
 	t.Run("Test CorporatesApiService CorporateGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.CorporatesApi.CorporateGet(context.Background()).Execute()
 
@@ -57,7 +57,7 @@ func Test_weavr_CorporatesApiService(t *testing.T) {
 
 	t.Run("Test CorporatesApiService CorporateKybGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.CorporatesApi.CorporateKybGet(context.Background()).Execute()
 
@@ -68,7 +68,7 @@ func Test_weavr_CorporatesApiService(t *testing.T) {
 
 	t.Run("Test CorporatesApiService CorporateKybStart", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.CorporatesApi.CorporateKybStart(context.Background()).Execute()
 
@@ -80,7 +80,7 @@ func Test_weavr_CorporatesApiService(t *testing.T) {
 
 	t.Run("Test CorporatesApiService CorporateRootUserEmailVerificationCodeSend", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.CorporatesApi.CorporateRootUserEmailVerificationCodeSend(context.Background()).Execute()
 
@@ -91,7 +91,7 @@ func Test_weavr_CorporatesApiService(t *testing.T) {
 
 	t.Run("Test CorporatesApiService CorporateRootUserEmailVerify", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.CorporatesApi.CorporateRootUserEmailVerify(context.Background()).Execute()
 
@@ -102,7 +102,7 @@ func Test_weavr_CorporatesApiService(t *testing.T) {
 
 	t.Run("Test CorporatesApiService CorporateUpdate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.CorporatesApi.CorporateUpdate(context.Background()).Execute()
 

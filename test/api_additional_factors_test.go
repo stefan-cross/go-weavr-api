@@ -11,10 +11,10 @@ package weavr
 
 import (
 	"context"
+	openapiclient "github.com/stefan-cross/go-weavr-api"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_weavr_AdditionalFactorsApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_weavr_AdditionalFactorsApiService(t *testing.T) {
 
 	t.Run("Test AdditionalFactorsApiService AuthFactorsGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.AdditionalFactorsApi.AuthFactorsGet(context.Background()).Execute()
 
@@ -35,7 +35,7 @@ func Test_weavr_AdditionalFactorsApiService(t *testing.T) {
 
 	t.Run("Test AdditionalFactorsApiService EnrolDeviceUsingOtpStepOne", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var channel SCAOtpChannel
 
@@ -48,7 +48,7 @@ func Test_weavr_AdditionalFactorsApiService(t *testing.T) {
 
 	t.Run("Test AdditionalFactorsApiService EnrolDeviceUsingOtpStepTwo", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var channel SCAOtpChannel
 
@@ -61,7 +61,7 @@ func Test_weavr_AdditionalFactorsApiService(t *testing.T) {
 
 	t.Run("Test AdditionalFactorsApiService EnrolDeviceUsingPush", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var channel SCAPushChannel
 
@@ -74,7 +74,7 @@ func Test_weavr_AdditionalFactorsApiService(t *testing.T) {
 
 	t.Run("Test AdditionalFactorsApiService UnlinkDeviceUsingPush", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var channel SCAPushChannel
 

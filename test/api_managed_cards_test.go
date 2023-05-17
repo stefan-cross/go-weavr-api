@@ -11,10 +11,10 @@ package weavr
 
 import (
 	"context"
+	openapiclient "github.com/stefan-cross/go-weavr-api"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_weavr_ManagedCardsApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_weavr_ManagedCardsApiService(t *testing.T) {
 
 	t.Run("Test ManagedCardsApiService ManagedCardAssign", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.ManagedCardsApi.ManagedCardAssign(context.Background()).Execute()
 
@@ -35,7 +35,7 @@ func Test_weavr_ManagedCardsApiService(t *testing.T) {
 
 	t.Run("Test ManagedCardsApiService ManagedCardBlock", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -48,7 +48,7 @@ func Test_weavr_ManagedCardsApiService(t *testing.T) {
 
 	t.Run("Test ManagedCardsApiService ManagedCardCreate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.ManagedCardsApi.ManagedCardCreate(context.Background()).Execute()
 
@@ -59,7 +59,7 @@ func Test_weavr_ManagedCardsApiService(t *testing.T) {
 
 	t.Run("Test ManagedCardsApiService ManagedCardGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -72,7 +72,7 @@ func Test_weavr_ManagedCardsApiService(t *testing.T) {
 
 	t.Run("Test ManagedCardsApiService ManagedCardPhysicalActivate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -85,7 +85,7 @@ func Test_weavr_ManagedCardsApiService(t *testing.T) {
 
 	t.Run("Test ManagedCardsApiService ManagedCardPhysicalContactlessLimitReset", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -98,7 +98,7 @@ func Test_weavr_ManagedCardsApiService(t *testing.T) {
 
 	t.Run("Test ManagedCardsApiService ManagedCardPhysicalPinGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -111,7 +111,7 @@ func Test_weavr_ManagedCardsApiService(t *testing.T) {
 
 	t.Run("Test ManagedCardsApiService ManagedCardPhysicalPinUnBlock", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -124,7 +124,7 @@ func Test_weavr_ManagedCardsApiService(t *testing.T) {
 
 	t.Run("Test ManagedCardsApiService ManagedCardPhysicalReplaceDamaged", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -137,7 +137,7 @@ func Test_weavr_ManagedCardsApiService(t *testing.T) {
 
 	t.Run("Test ManagedCardsApiService ManagedCardPhysicalReplaceLostOrStolen", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -150,7 +150,7 @@ func Test_weavr_ManagedCardsApiService(t *testing.T) {
 
 	t.Run("Test ManagedCardsApiService ManagedCardPhysicalReportLost", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -163,7 +163,7 @@ func Test_weavr_ManagedCardsApiService(t *testing.T) {
 
 	t.Run("Test ManagedCardsApiService ManagedCardPhysicalReportStolen", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -176,7 +176,7 @@ func Test_weavr_ManagedCardsApiService(t *testing.T) {
 
 	t.Run("Test ManagedCardsApiService ManagedCardPhysicalUpgrade", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -189,7 +189,7 @@ func Test_weavr_ManagedCardsApiService(t *testing.T) {
 
 	t.Run("Test ManagedCardsApiService ManagedCardRemove", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -202,7 +202,7 @@ func Test_weavr_ManagedCardsApiService(t *testing.T) {
 
 	t.Run("Test ManagedCardsApiService ManagedCardSpendRulesCreate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -215,7 +215,7 @@ func Test_weavr_ManagedCardsApiService(t *testing.T) {
 
 	t.Run("Test ManagedCardsApiService ManagedCardSpendRulesDelete", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -228,7 +228,7 @@ func Test_weavr_ManagedCardsApiService(t *testing.T) {
 
 	t.Run("Test ManagedCardsApiService ManagedCardSpendRulesGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -241,7 +241,7 @@ func Test_weavr_ManagedCardsApiService(t *testing.T) {
 
 	t.Run("Test ManagedCardsApiService ManagedCardSpendRulesSet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -254,7 +254,7 @@ func Test_weavr_ManagedCardsApiService(t *testing.T) {
 
 	t.Run("Test ManagedCardsApiService ManagedCardSpendRulesUpdate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -267,7 +267,7 @@ func Test_weavr_ManagedCardsApiService(t *testing.T) {
 
 	t.Run("Test ManagedCardsApiService ManagedCardStatement", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -280,7 +280,7 @@ func Test_weavr_ManagedCardsApiService(t *testing.T) {
 
 	t.Run("Test ManagedCardsApiService ManagedCardUnblock", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -293,7 +293,7 @@ func Test_weavr_ManagedCardsApiService(t *testing.T) {
 
 	t.Run("Test ManagedCardsApiService ManagedCardUpdate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -306,7 +306,7 @@ func Test_weavr_ManagedCardsApiService(t *testing.T) {
 
 	t.Run("Test ManagedCardsApiService ManagedCardsGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.ManagedCardsApi.ManagedCardsGet(context.Background()).Execute()
 

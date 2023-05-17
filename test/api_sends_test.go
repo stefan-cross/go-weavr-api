@@ -11,10 +11,10 @@ package weavr
 
 import (
 	"context"
+	openapiclient "github.com/stefan-cross/go-weavr-api"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_weavr_SendsApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_weavr_SendsApiService(t *testing.T) {
 
 	t.Run("Test SendsApiService SendCreate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.SendsApi.SendCreate(context.Background()).Execute()
 
@@ -35,7 +35,7 @@ func Test_weavr_SendsApiService(t *testing.T) {
 
 	t.Run("Test SendsApiService SendGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -48,7 +48,7 @@ func Test_weavr_SendsApiService(t *testing.T) {
 
 	t.Run("Test SendsApiService SendSCAChallenge", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 		var channel SCAOtpChannel
@@ -62,7 +62,7 @@ func Test_weavr_SendsApiService(t *testing.T) {
 
 	t.Run("Test SendsApiService SendSCAChallengePush", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 		var channel SCAPushChannel
@@ -76,7 +76,7 @@ func Test_weavr_SendsApiService(t *testing.T) {
 
 	t.Run("Test SendsApiService SendSCAVerify", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 		var channel SCAOtpChannel
@@ -90,7 +90,7 @@ func Test_weavr_SendsApiService(t *testing.T) {
 
 	t.Run("Test SendsApiService SendsGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.SendsApi.SendsGet(context.Background()).Execute()
 

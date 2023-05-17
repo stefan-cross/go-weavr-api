@@ -11,10 +11,10 @@ package weavr
 
 import (
 	"context"
+	openapiclient "github.com/stefan-cross/go-weavr-api"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_weavr_TransfersApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_weavr_TransfersApiService(t *testing.T) {
 
 	t.Run("Test TransfersApiService TransferCreate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.TransfersApi.TransferCreate(context.Background()).Execute()
 
@@ -35,7 +35,7 @@ func Test_weavr_TransfersApiService(t *testing.T) {
 
 	t.Run("Test TransfersApiService TransferGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -48,7 +48,7 @@ func Test_weavr_TransfersApiService(t *testing.T) {
 
 	t.Run("Test TransfersApiService TransfersGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.TransfersApi.TransfersGet(context.Background()).Execute()
 

@@ -11,10 +11,10 @@ package weavr
 
 import (
 	"context"
+	openapiclient "github.com/stefan-cross/go-weavr-api"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_weavr_AccessApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_weavr_AccessApiService(t *testing.T) {
 
 	t.Run("Test AccessApiService LoginWithPassword", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.AccessApi.LoginWithPassword(context.Background()).Execute()
 
@@ -35,7 +35,7 @@ func Test_weavr_AccessApiService(t *testing.T) {
 
 	t.Run("Test AccessApiService Logout", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.AccessApi.Logout(context.Background()).Execute()
 
@@ -46,7 +46,7 @@ func Test_weavr_AccessApiService(t *testing.T) {
 
 	t.Run("Test AccessApiService RequestAccessToken", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.AccessApi.RequestAccessToken(context.Background()).Execute()
 
@@ -57,7 +57,7 @@ func Test_weavr_AccessApiService(t *testing.T) {
 
 	t.Run("Test AccessApiService StepupSCAChallenge", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var channel SCAOtpChannel
 
@@ -70,7 +70,7 @@ func Test_weavr_AccessApiService(t *testing.T) {
 
 	t.Run("Test AccessApiService StepupSCAChallengePush", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var channel SCAPushChannel
 
@@ -83,7 +83,7 @@ func Test_weavr_AccessApiService(t *testing.T) {
 
 	t.Run("Test AccessApiService StepupSCAVerify", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var channel SCAOtpChannel
 
@@ -96,7 +96,7 @@ func Test_weavr_AccessApiService(t *testing.T) {
 
 	t.Run("Test AccessApiService UserIdentities", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.AccessApi.UserIdentities(context.Background()).Execute()
 

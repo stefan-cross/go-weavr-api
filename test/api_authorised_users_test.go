@@ -11,10 +11,10 @@ package weavr
 
 import (
 	"context"
+	openapiclient "github.com/stefan-cross/go-weavr-api"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_weavr_AuthorisedUsersApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_weavr_AuthorisedUsersApiService(t *testing.T) {
 
 	t.Run("Test AuthorisedUsersApiService AuthorisedUserEmailVerificationCodeSend", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.AuthorisedUsersApi.AuthorisedUserEmailVerificationCodeSend(context.Background()).Execute()
 
@@ -35,7 +35,7 @@ func Test_weavr_AuthorisedUsersApiService(t *testing.T) {
 
 	t.Run("Test AuthorisedUsersApiService AuthorisedUserEmailVerify", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.AuthorisedUsersApi.AuthorisedUserEmailVerify(context.Background()).Execute()
 
@@ -46,7 +46,7 @@ func Test_weavr_AuthorisedUsersApiService(t *testing.T) {
 
 	t.Run("Test AuthorisedUsersApiService UserActivate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var userId interface{}
 
@@ -59,7 +59,7 @@ func Test_weavr_AuthorisedUsersApiService(t *testing.T) {
 
 	t.Run("Test AuthorisedUsersApiService UserCreate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.AuthorisedUsersApi.UserCreate(context.Background()).Execute()
 
@@ -70,7 +70,7 @@ func Test_weavr_AuthorisedUsersApiService(t *testing.T) {
 
 	t.Run("Test AuthorisedUsersApiService UserDeactivate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var userId interface{}
 
@@ -83,7 +83,7 @@ func Test_weavr_AuthorisedUsersApiService(t *testing.T) {
 
 	t.Run("Test AuthorisedUsersApiService UserGetById", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var userId interface{}
 
@@ -96,7 +96,7 @@ func Test_weavr_AuthorisedUsersApiService(t *testing.T) {
 
 	t.Run("Test AuthorisedUsersApiService UserInviteConsume", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var userId interface{}
 
@@ -109,7 +109,7 @@ func Test_weavr_AuthorisedUsersApiService(t *testing.T) {
 
 	t.Run("Test AuthorisedUsersApiService UserInviteSend", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var userId interface{}
 
@@ -122,7 +122,7 @@ func Test_weavr_AuthorisedUsersApiService(t *testing.T) {
 
 	t.Run("Test AuthorisedUsersApiService UserInviteValidate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var userId interface{}
 
@@ -135,7 +135,7 @@ func Test_weavr_AuthorisedUsersApiService(t *testing.T) {
 
 	t.Run("Test AuthorisedUsersApiService UserKyc", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AuthorisedUsersApi.UserKyc(context.Background()).Execute()
 
@@ -147,7 +147,7 @@ func Test_weavr_AuthorisedUsersApiService(t *testing.T) {
 
 	t.Run("Test AuthorisedUsersApiService UserUpdate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var userId interface{}
 
@@ -160,7 +160,7 @@ func Test_weavr_AuthorisedUsersApiService(t *testing.T) {
 
 	t.Run("Test AuthorisedUsersApiService UsersGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.AuthorisedUsersApi.UsersGet(context.Background()).Execute()
 

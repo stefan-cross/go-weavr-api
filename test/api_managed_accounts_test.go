@@ -11,10 +11,10 @@ package weavr
 
 import (
 	"context"
+	openapiclient "github.com/stefan-cross/go-weavr-api"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_weavr_ManagedAccountsApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_weavr_ManagedAccountsApiService(t *testing.T) {
 
 	t.Run("Test ManagedAccountsApiService ManagedAccountBlock", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -37,7 +37,7 @@ func Test_weavr_ManagedAccountsApiService(t *testing.T) {
 
 	t.Run("Test ManagedAccountsApiService ManagedAccountCreate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.ManagedAccountsApi.ManagedAccountCreate(context.Background()).Execute()
 
@@ -48,7 +48,7 @@ func Test_weavr_ManagedAccountsApiService(t *testing.T) {
 
 	t.Run("Test ManagedAccountsApiService ManagedAccountGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -61,7 +61,7 @@ func Test_weavr_ManagedAccountsApiService(t *testing.T) {
 
 	t.Run("Test ManagedAccountsApiService ManagedAccountIBANGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -74,7 +74,7 @@ func Test_weavr_ManagedAccountsApiService(t *testing.T) {
 
 	t.Run("Test ManagedAccountsApiService ManagedAccountRemove", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -87,7 +87,7 @@ func Test_weavr_ManagedAccountsApiService(t *testing.T) {
 
 	t.Run("Test ManagedAccountsApiService ManagedAccountStatement", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -100,7 +100,7 @@ func Test_weavr_ManagedAccountsApiService(t *testing.T) {
 
 	t.Run("Test ManagedAccountsApiService ManagedAccountUnblock", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -113,7 +113,7 @@ func Test_weavr_ManagedAccountsApiService(t *testing.T) {
 
 	t.Run("Test ManagedAccountsApiService ManagedAccountUpdate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 
@@ -126,7 +126,7 @@ func Test_weavr_ManagedAccountsApiService(t *testing.T) {
 
 	t.Run("Test ManagedAccountsApiService ManagedAccountsGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.ManagedAccountsApi.ManagedAccountsGet(context.Background()).Execute()
 
@@ -137,7 +137,7 @@ func Test_weavr_ManagedAccountsApiService(t *testing.T) {
 
 	t.Run("Test ManagedAccountsApiService ManagedAccountsIBANUpgrade", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id interface{}
 

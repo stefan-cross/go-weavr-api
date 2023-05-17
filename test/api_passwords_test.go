@@ -11,10 +11,10 @@ package weavr
 
 import (
 	"context"
+	openapiclient "github.com/stefan-cross/go-weavr-api"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_weavr_PasswordsApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_weavr_PasswordsApiService(t *testing.T) {
 
 	t.Run("Test PasswordsApiService LostPasswordInitiate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.PasswordsApi.LostPasswordInitiate(context.Background()).Execute()
 
@@ -35,7 +35,7 @@ func Test_weavr_PasswordsApiService(t *testing.T) {
 
 	t.Run("Test PasswordsApiService LostPasswordResume", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.PasswordsApi.LostPasswordResume(context.Background()).Execute()
 
@@ -46,7 +46,7 @@ func Test_weavr_PasswordsApiService(t *testing.T) {
 
 	t.Run("Test PasswordsApiService PasswordCreate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var userId interface{}
 
@@ -59,7 +59,7 @@ func Test_weavr_PasswordsApiService(t *testing.T) {
 
 	t.Run("Test PasswordsApiService PasswordUpdate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.PasswordsApi.PasswordUpdate(context.Background()).Execute()
 
@@ -70,7 +70,7 @@ func Test_weavr_PasswordsApiService(t *testing.T) {
 
 	t.Run("Test PasswordsApiService PasswordValidate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.PasswordsApi.PasswordValidate(context.Background()).Execute()
 
