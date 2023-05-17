@@ -1,3 +1,10 @@
+Generated with:
+
+```
+openapi-generator generate -i waevr-swagger.json -g go -o pkg/weavr -p packageName=weavr --skip-validate-spec
+```
+
+
 # Go API client for weavr
 
 Weavr Multi API provides a simple and flexible way to issue cards and accounts to your customers.
